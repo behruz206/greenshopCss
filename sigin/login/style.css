@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(10, 13, 18, 0.25);
+
+
+
+}
+
+.box-login {
+    width: 500px;
+    height: 600px;
+    flex-shrink: 0;
+    background: white;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 0px 0px;
+}
+
+.close>svg {
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.close>svg:hover {
+    transform: scale(1.4);
+    transition: transform 0.7s;
+}
+
+
+
+.login-and-register {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.login-and-register>p {
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 80% */
+}
+
+.login-and-register>span {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 16px;
+    /* 88.889% */
+}
+
+.login-and-register>b {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 80% */
+}
+
+.box-input {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 100px;
+    position: relative;
+}
+.box-input>img{
+    position: absolute;
+    top: 97px;
+    right: 115px;
+}
+.box-input>p {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 123.077% */
+}
+
+.box-input>input {
+    width: 300px;
+    height: 40px;
+    padding: 0px 8px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    color: #A5A5A5;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+
+.password-forget {
+    display: flex;
+    justify-content: end;
+}
+
+.password-forget {
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn>button {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background: #46A358;
+    border: none;
+    color: #FFF;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 100% */
+}
+
+.or-login {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.or-login>span {
+    width: 100px;
+    height: 1px;
+    background: #EAEAEA;
+
+
+}
+
+.or-login>b {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.btn-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-box>button {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #727272;
+    text-align: center;
+    font-family: Cera Pro;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
